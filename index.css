@@ -1,0 +1,260 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  background-color: #e5e4e4;
+}
+.navbar {
+  max-width: 100%;
+  max-height: 65px;
+  background-color: #ffffff;
+  margin: 20px 19px 0px 19px;
+  border-radius: 67px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 10px 40px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 1px 7px 1px 1px;
+    bottom: 10px;
+    position: relative;
+    right: 50px;
+}
+.letter {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  bottom: -7px;
+  position: relative;
+}
+.circle h2 {
+  font-size: 32px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px 1px 1px 57px;
+  top: 3px;
+  position: absolute;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-size: 15px;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-family: Raleway;
+}
+
+.sign-up-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 39px 10px 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 15px;
+  height: 52px;
+  top: -4px;
+  position: relative;
+  right: -23px;
+  width: 158px;
+
+}
+
+.sign a {
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.sign {
+  margin: 1px 13px 22px 1px;
+}
+.intro {
+  padding: 50px 0;
+  text-align: center;
+  top: 24px;
+  position: relative;
+}
+.intro h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Raleway;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.email-info {
+  height: 75px;
+  width: 423px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  left: 408px;
+  position: relative;
+}
+.email-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 1px 16px 1px 1px;
+  border: none;
+  border-radius: 100px;
+  margin: 15px 15px 15px 1px;
+  font-size: 15px;
+  height: 52px;
+  width: 160px;
+}
+.email-info input {
+  width: 250px;
+  height: 35px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 100px;
+  margin-left: 20px;
+  font-size: 15px;
+  background-color: none;
+  color: #333;
+}
+.sec-center {
+    background-color: #000000;
+    width: 1222px;
+    height: 370px;
+    border-radius: 20px;
+    margin: 0px 20px 2px 20px;
+
+}
+.sec-center h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 10px 10px 0px;
+}
+.sec-center p {
+  font-size: 15px;
+  margin-top: 17px;
+  color: #fff;
+  margin-right: 66px;
+}
+.get-started {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  margin: 20px 20px 2px 2px;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.img1 {
+  width: auto;
+  height: 323px;
+
+  position: absolute;
+  top: 23px;
+}
+
+.stat-section {
+    display: flex;
+justify-content: space-around;
+background-color: #F0F0F0; 
+padding: 20px; 
+}
+.stat-box {
+text-align: center;
+}
+
+.stat-number {
+font-size: 38px;
+font-weight: bold;
+color: black; }
+
+.stat-box p {
+font-size: 14px;
+color: black;
+text-align: left;
+}
+
+.line1{
+
+height: 137px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+right: 28px;
+position: relative;
+top: -11px;
+}
+.line2{
+height: 137px;
+border: 1px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+right: 7px;
+position: relative;
+top: -11px;
+}
+.gradient{
+background-image: linear-gradient(to right, #e5e4e4, rgb(255, 185, 255), #e5e4e4);
+background-position: center;
+height: 450px;
+width: auto;
+margin: 0;
+padding: 0;
+}
+.arrow-btn-rounded {
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  color: black;
+  font-size: larger;
+  align-items: center;
+  display: grid;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  }
+  .arrow-btn-1-rounded {
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    color: black;
+    font-size: larger;
+    align-items: center;
+    display: grid;
+    position: absolute;
+    top: 20px;
+    right: 21px;
+    }
